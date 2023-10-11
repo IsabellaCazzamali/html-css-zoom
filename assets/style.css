@@ -1,0 +1,33 @@
+/* #region Debug */
+#site_header{
+    height: 30px;
+}
+/* #endregion Debug */
+
+
+/* #region Common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --zoom-primary: rgba(0,0,0,255);
+    --zoom-header: rgba(74,74,74,255);
+    --zoom-footer: rgba(34,34,34,255);
+    --zoom-share: rgba(34,34,34,255);
+    --zoom-icons: rgba(255,255,255,255);
+}
+
+/* #endregion Common */
+
+
+/* #region Header */
+
+#site_header{
+    background-color: var(--zoom-header);
+}
+
+/* #endregion Header */
