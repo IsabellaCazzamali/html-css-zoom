@@ -1,5 +1,10 @@
 /* #region Debug */
 
+.debug .left, .debug .center, .debug .right {
+    background-color: red;
+    border: 1px dashed white;
+}
+
 /* #endregion Debug */
 
 
@@ -37,6 +42,29 @@ img{
     max-width: 100%;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap-1{
+    gap: 0.25rem;
+}
+
+.gap-2{
+    gap: 0.5rem;
+}
+
+.pr-2{
+    padding-right: 0.5rem;
+}
 
 /* #endregion Utility */
 
@@ -113,6 +141,57 @@ img{
     height: 60px;
     width: 100%;
     background-color: var(--zoom-footer);
+}
+
+.left, .center, .right{
+    height: 100%;
+    color: var(--zoom-icons);
+}
+
+.left, .right{
+    width: 15%;
+}
+
+.center{
+    width: 40%;
+}
+
+.audio, .video{
+    padding: 0.5rem;
+}
+
+.caption{
+    padding-top: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.arrow-up{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.fa-microphone{
+    padding-left: 0.25rem;
+}
+
+.fa-video{
+    padding-left: 1rem;
+}
+
+.fa-user-plus{
+    padding-left: 0.25rem;
+}
+
+.fa-user-group{
+    padding-left: 2.5rem;
+}
+
+.polling{
+    padding-left: 0.5rem;
+}
+
+.fa-chart-column{
+    padding-left: 0.5rem;
 }
 
 /* #endregion Footer */
