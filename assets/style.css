@@ -148,8 +148,12 @@ img{
     color: var(--zoom-icons);
 }
 
-.left, .right{
+.left{
     width: 15%;
+}
+
+.right{
+    width: 10%;
 }
 
 .center{
@@ -170,7 +174,7 @@ img{
     padding-left: 0.5rem;
 }
 
-.fa-microphone{
+.fa-microphone, .fa-user-plus{
     padding-left: 0.25rem;
 }
 
@@ -178,11 +182,7 @@ img{
     padding-left: 1rem;
 }
 
-.fa-user-plus{
-    padding-left: 0.25rem;
-}
-
-.fa-user-group{
+.fa-user-group, .fa-table-cells-large{
     padding-left: 2.5rem;
 }
 
@@ -190,8 +190,42 @@ img{
     padding-left: 0.5rem;
 }
 
-.fa-chart-column{
+.fa-chart-column, .fa-record-vinyl{
     padding-left: 0.5rem;
+}
+
+.fa-share-from-square{
+    padding-left: 1.5rem;
+}
+
+.fa-comment, .fa-ellipsis{
+    padding-left: 0.25rem;
+}
+
+.arrow{
+    padding-left: -0.5rem;
+}
+
+.chat{
+    padding-left: 0.75rem;
+    padding-right: 0.5rem;
+}
+
+.share, .b-rooms, .more{
+    padding-left: 0.5rem;
+}
+
+.btn-end{
+    justify-content: end;
+    background-color: var(--zoom-header);
+}
+
+.end-meeting-text{
+    padding: 1.5rem;
+    overflow: hidden;
+    color: red;
+    text-align: center;
+    font-size: 0.75rem;
 }
 
 /* #endregion Footer */
