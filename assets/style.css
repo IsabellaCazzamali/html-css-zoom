@@ -42,6 +42,24 @@ img{
     max-width: 100%;
 }
 
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.person{
+    bottom: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.536);
+    font-size: 0.75rem;
+    color: var(--zoom-icons);
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
 .justify-between{
     justify-content: space-between;
 }
